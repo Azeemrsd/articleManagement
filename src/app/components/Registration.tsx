@@ -2,7 +2,7 @@ import React, { useState, useCallback, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { useAppDispatch } from "../hooks";
 import { setUser } from "../slices/authSlice";
-import { validateEmail } from "../../utils/validation.utls";
+import { validateEmail } from "../../utils/validation.utils";
 
 interface FormData {
   firstName: string;
